@@ -7,8 +7,8 @@ Maintainer: The package maintainer <daniel.williams@bristol.ac.uk>
 Description: Package containing all R work I've completed that seemed good enough to include in a package to save for another time.
 License: GPL-3
 Encoding: UTF-8
-Imports: Matrix, stats, graphics, utils
-Depends: R (>= 3.5.0)
+Imports: Matrix, graphics, utils
+Depends: R (>= 3.5.0), stats
 LazyData: true
 Suggests: 
     testthat (>= 2.1.0)

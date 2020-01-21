@@ -34,4 +34,37 @@
 "crime"
 
 
+#' Observed Precipitation Maxima
+#'
+#' Observed yearly precipitation maxima from 1988 to 2017 in South West UK
+#' @usage data(rain_max_obs)
+#' @format A data frame with 4731 rows and 8 variables:
+#' \describe{
+#'   \item{date}{date of observation}
+#'   \item{lon}{longitude of observation}
+#'   \item{lat}{latitude of observation}
+#'   \item{elev}{elevation of observation}
+#'   \item{rain}{precipitation value (mm)}
+#'   \item{year}{year of observation}
+#'   \item{day}{day of month of observation}
+#'   \item{month}{month of observation}
+#' }
+"rain_max_obs"
+
+#' Model Precipitation Maxima
+#'
+#' Gridded model predicted yearly precipitation maxima from the ERA5 reanalysis from the period 1979 to 2018 in South West UK
+#' @usage data(rain_max_obs)
+#' @format A data frame with 4200 rows and 7 variables:
+#' \describe{
+#'   \item{lon}{longitude of centre of grid cell}
+#'   \item{year}{year of estimate}
+#'   \item{lat}{latitude of centre of grid cell}
+#'   \item{rain}{estimated precipitation value (mm)}
+#'   \item{id}{id number of the model, corresponding to grid cell}
+#'   \item{elev}{average elevation across grid cell}
+#'   \item{dist2coast}{distance in km to the coastline from the grid point centre}
+#' }
+"rain_max_model"
+
 
