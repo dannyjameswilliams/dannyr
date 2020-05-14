@@ -2,3 +2,20 @@
 
 
 # danielR
+
+This is a collection of all my work in R, that can be loaded as an R package. This currently contains
+
+ - Logistic Regression fitting using iteratively reweighted least squares
+ - Non-stationary Generalised Extreme Value model fitting
+ - Some datasets, including formatted Chicago crime and rainfall maxima
+ 
+## Installation
+
+You can install this by running
+```
+devtools::install_github("dannyjameswilliams/danielR")
+```
+and use it with 
+```
+library(danielR)
+```
