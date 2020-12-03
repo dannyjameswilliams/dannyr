@@ -13,9 +13,9 @@ This is a collection of all my work in R, that can be loaded as an R package. Th
 
 You can install this by running
 ```
-devtools::install_github("dannyjameswilliams/danielR")
+devtools::install_github("dannyjameswilliams/dannyr")
 ```
 and use it with 
 ```
-library(danielR)
+library(dannyr)
 ```
