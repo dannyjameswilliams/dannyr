@@ -15,7 +15,7 @@ You can install this by running
 ```
 devtools::install_github("dannyjameswilliams/danielR")
 ```
-and use it with 
+and use it with the following
 ```
 library(danielR)
 ```
