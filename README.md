@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.com/dannyjameswilliams/danielR.svg?branch=master)](https://travis-ci.com/dannyjameswilliams/danielR)  [![codecov](https://codecov.io/gh/dannyjameswilliams/danielR/branch/master/graph/badge.svg)](https://codecov.io/gh/dannyjameswilliams/danielR)
 
 
-# danielR
+# dannyr
 
 This is a collection of all my work in R, that can be loaded as an R package. This currently contains
 
@@ -13,9 +13,9 @@ This is a collection of all my work in R, that can be loaded as an R package. Th
 
 You can install this by running
 ```
-devtools::install_github("dannyjameswilliams/danielR")
+devtools::install_github("dannyjameswilliams/dannyr")
 ```
 and use it with the following
 ```
-library(danielR)
+library(dannyr)
 ```
