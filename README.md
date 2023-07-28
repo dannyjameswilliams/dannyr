@@ -3,7 +3,7 @@
 
 # dannyr
 
-This is a collection of all my work in R, that can be loaded as an R package. This currently contains
+This is a collection of my early work in R, that can be loaded as an R package. This currently contains
 
  - Logistic Regression fitting using iteratively reweighted least squares
  - Non-stationary Generalised Extreme Value model fitting
